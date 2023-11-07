@@ -1,11 +1,8 @@
 # ASGI server
 import uvicorn
-
 # A class for working with binary data in memory
 from fastapi import FastAPI, File, UploadFile
-
 from typing import Union
-
 app = FastAPI()
 
 
