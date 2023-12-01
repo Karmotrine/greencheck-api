@@ -34,6 +34,13 @@ uvicorn main:app --reload
 Then you can go to the interactive API docs for documentation and testing:
 `[local-host-address:port]/docs` e.g. `http://127.0.0.1:8000/docs`
 
+# Laptop to mobile
+deploy by `uvicorn --host 0.0.0.0 main:app`
+access in phone by `http://192.168.137.1/8000`
+
+# alternative host
+`ngrok http 8000`
+
 # Additional Documents:
 
 Why FastAPI?
